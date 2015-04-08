@@ -8,7 +8,7 @@ import sys, os
 
 def displayGoogleSearch(mySearch):
     
-    file = open("api_googlesearch.log", "a")
+    file = open("api_googlesearch.html", "a")
     query = urllib.urlencode({'q':mySearch})
     url = "http://ajax.googleapis.com/ajax/services/search/web?v=1.0&"
     #query = urllib.urlencode({'gl':query})
